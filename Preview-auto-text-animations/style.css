@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+
 body{
     margin: 0;
     display: flex;
     justify-content: center;
     height: 100vh;
     align-items: center;
-    background-color: #f1f1f1;
-}
+    background-color: #f1f;
+        font-family: "Euphoria Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
