@@ -20,7 +20,19 @@ body{
 .month-name{
     margin: 0;
     background-color: orangered;
+    color: white;
     padding: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.day-name{
+    font-size: 20px;
+    color: brown;
+}
+
+.day-number{
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
 }
