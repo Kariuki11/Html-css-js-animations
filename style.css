@@ -7,35 +7,37 @@ body{
     font-family: cursive;
     background-color: mediumslateblue;
 }
-
-.btn{
-    background-color: orangered;
-    color: white;
-    padding: 10px 20px;
-    border: none;
+  
+  .btn {
+    background-color: pink;
+    padding: 20px 40px;
     border-radius: 5px;
-    cursor: pointer;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     text-decoration: none;
+    color: black;
+    position: relative;
     overflow: hidden;
-}
-
-.btn::before{
+  }
+  
+  .btn span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .btn::before {
     content: "";
     position: absolute;
     background-color: orangered;
-    width: 20px;
-    height: 20px;
-    left: 50%;
-    top: 50%;
+    width: 0;
+    height: 0;
+    left: var(--xPos);
+    top: var(--yPos);
     transform: translate(-50%, -50%);
     border-radius: 50%;
     transition: width 0.5s, height 0.5s;
-}
-
-.btn:hover::before{
-    width: 300%;
-    height: 300;
-    background-color: rgba(255, 255, 255, .1);
-}
+  }
+  
+  .btn:hover::before {
+    width: 300px;
+    height: 300px;
+  }
