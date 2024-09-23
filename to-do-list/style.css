@@ -51,7 +51,7 @@ body{
     cursor: pointer;
 }
 .list li .fa-check-square{
-    color: green;
+    color: rgba(0, 128, 0, 0.352);
     position: absolute;
     right: 40px;
     top: 50%;
