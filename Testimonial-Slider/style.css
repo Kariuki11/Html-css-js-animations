@@ -10,7 +10,7 @@ body {
   .testimonial-container {
     width: 500px;
     height: 100px;
-    background-color: slateblue;
+    background-color: rgb(90, 205, 96);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     min-width: 400px;
