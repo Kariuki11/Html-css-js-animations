@@ -22,7 +22,7 @@ h2{
 .btn{
     font-size: 5rem;
     border: none;
-    background: rgb(255,255,255,.2);
+    background: goldenrod;
     border-radius: 10px;
     padding: 15px;
     filter: grayscale();
