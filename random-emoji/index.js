@@ -18,6 +18,7 @@ async function getEmoji() {
   }
 }
 
+
 getEmoji();
 
 btnEl.addEventListener("click", () => {
